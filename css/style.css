@@ -1,0 +1,332 @@
+*{box-sizing: border-box;}
+body {
+  /* background-color: #888; */
+  height: 1000000000000px;
+}
+.clearboth {
+  clear: both;
+}
+/* start header */
+
+/* start slider */
+.header .slider {
+  background-image: url(../images/code1.jpg);
+  height: 600px;
+  background-size: cover;
+}
+.header .slider .intro {
+  padding-top: 100px;
+    text-align: center;
+    padding-left:800px ;
+}
+
+.header .slider .intro h2 {
+  margin: 0 auto;
+  color: #f2f2f2;
+  width: 300px;
+  border-top: 4px solid #fff;
+  border-bottom: 4px solid #fff;
+  padding: 7px 0;
+}
+/* end slider */
+
+/* start navbar */
+.container {
+  margin: auto;
+}
+.header .navbar {
+  background-color: #252f31;
+  color: #fff;
+  /* overflow: hidden; */
+}
+.header .navbar h2 {
+  float: left;
+}
+.header .navbar h2 span {
+  color: #2ecc71;
+}
+
+/* bootstrap navbar config */
+.navbar-nav .dropdown-menu{
+    background-color:#252F31 ;
+}
+.navbar-nav .dropdown-menu>li>a{
+    color: #BECBC2;
+    transition: 0.5s all ease-in-out  ;
+}
+.navbar-nav .dropdown-menu>li>a:hover,
+.navbar-nav .dropdown-menu>li>a:focus{
+    /* background-color:green; */
+    padding-left:35px ;
+    color: #2ECC71;
+}
+
+
+.navbar-dark .navbar-brand:focus, .navbar-dark .navbar-brand:hover {
+    color:#2ECC71 ;
+}
+.navbar-dark .navbar-nav .nav-link.active:hover,.navbar-dark .navbar-nav .nav-link.active:focus{
+    color: #2ECC71;
+}
+/* bootstrap navbar config */
+
+/* end navbar */
+/* End header seasion */
+
+/* start features */
+.features {
+  /* overflow: auto; */
+  overflow: hidden;
+  padding-top: 56px;
+  padding-bottom:66px;
+}
+.features .feat {
+  float: left;
+  width: 33.3333%;
+  height: 150px;
+padding-bottom: 10px;  
+
+}
+.features .feat p{
+  line-height: 1.7;
+  color: #888;
+}
+/* end features */
+
+/* start About */
+.about {
+  background-color: #f2f2f2;
+  overflow: hidden;
+}
+.about .image {
+  float: left;
+  width: 40%;
+}
+.about .image img {
+  width: 100%;
+  height: 100%;
+}
+.about .info {
+  float: right;
+  width: 60%;
+}
+.about .info h2{
+  margin: 40px 0 20px 40px;
+}
+.about .info > p{
+  margin:0 0 10px 40px;
+}
+
+.about .info p{
+  line-height: 1.7;
+  color: #666;
+}
+.about .hobbies {
+  overflow: hidden;
+  margin: 40px 0 20px 40px;
+}
+.about .info .hobbies > div {
+  float: left;
+  width: 50%;
+  min-height: 100px;
+}
+
+
+.fa-user-friends:before,.fa-magic,.fa-pen,.fa-globe,.fa-male{color: #146C43;}
+
+
+
+
+/* End About */
+
+/* start skills */
+.myskills {
+  padding-top: 30px;
+  padding-bottom: 50px;
+  overflow: hidden;
+}
+
+.myskills .skills,
+.myskills .progresss {
+  width: 50%;
+  float: left;
+}
+
+.myskills .skills h2{
+  margin: 0px 0 20px 40px;
+}
+.myskills .skills p{
+  margin:0 0 10px 40px;
+  line-height: 1.7;
+  color: #666;
+}
+.btn-success{
+  padding: 10px 30px;
+  margin-top: 20px;
+  margin-left: 40px;
+}
+
+/* progress section */
+.myskills .progresss .tech{margin-left: 50px;}
+.myskills .progresss .tech div{
+  background-color: #BECBC2;
+  height: 25px;
+}
+.myskills .progresss .tech div span{
+  background-color: #146C43;
+  height: 25px;
+  display: block;
+  text-align: end;
+  line-height: 25px;
+  font-weight: bold;
+  color: #DDD;
+}
+/* end skills/
+
+/* start resume */
+.resume {
+  background-color: #f2f2f2;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  text-align: center;
+}
+/* end resume */
+
+/* start Education */
+.myEdu {
+  padding-top: 30px;
+  padding-bottom: 30px;
+  overflow: hidden;
+}
+.myEdu p{color: #999;}
+.myEdu .Edu,
+.myEdu .Exp{
+  width: 50%;
+  float: left;
+}
+.myEdu .Exp h3{margin-top: 50px;}
+.myEdu .Exp span{
+  display: block;
+  margin-bottom: 5px;
+}
+.myEdu .Exp >span{color: #999;}
+.myEdu .Exp span:last-of-type{color: #fff;background-color: #146C43;display: inline-block;padding: 10px;}
+
+/* the work */
+.myEdu .work,
+.myEdu .Exp {
+  width: 50%;
+  float: left;
+}
+
+.myEdu .Edu,
+.myEdu .Exp{
+  width: 50%;
+  float: left;
+}
+.myEdu .Exp h3{margin-top: 50px;}
+.myEdu .Exp span{
+  display: block;
+  margin-bottom: 5px;
+}
+.myEdu .Exp >span{color: #999;}
+.myEdu .Exp span:last-of-type{color: #fff;background-color: #146C43;display: inline-block;padding: 10px;}
+
+/* end Education/
+
+
+/* start testimonial */
+.testimonials {
+  background-color: #f2f2f2;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  text-align: center;
+}
+/* End testimonial */
+
+/* start portofolio */
+.portofolio {
+  padding-top: 30px;
+  padding-bottom: 30px;
+  text-align: center;
+}
+.portofolio .our-work {
+  overflow: hidden;
+}
+
+.portofolio .our-work > div {
+  float: left;
+  width: 33.33333%;
+}
+
+.portofolio .our-work > div img {
+  width: 360px;
+  height: 360px;
+  margin: 20px;
+  padding: 3px;
+  background-color: #fff;
+  border: 1px solid #ccc;
+  box-shadow: 10px 10px 5px #ccc;
+}
+/* end portofolio */
+
+/* start contacts */
+.contact {
+  background-color: #252f25;
+  overflow: hidden;
+  padding-top: 50px;
+  padding-bottom: 70px;
+}
+.contact h2 {
+  color: #f2f2f2;
+  margin-left:40px ;
+}
+.contact p {
+  color: #6a6e71;
+  margin-left: 40px;
+  line-height: 1.7;
+}
+.contact p strong{color: #d1d1d1;}
+/* form section */
+.contact .info{
+  width: 50%;
+  float: left;
+  margin-right:5%;}
+.contact .form {
+  width: 45%;
+  float: left;
+}
+.contact .form label{display: block;color: #d1d1d1;margin-bottom: 10px;}
+.contact .form input[type="text"]{
+  background-color: #4b5557;
+  color: #fff;
+  padding: 3px;
+  border: 0 ;
+  width: 80%;
+}
+.contact .form textarea{
+  background-color: #4b5557;
+  color: #fff;
+  padding: 3px;
+  border: 0 ;
+  width: 80%;
+  height: 300px;
+}
+.contact .form input[type="submit"]{
+  background-color: #191e22;
+  color: #fff;
+  padding: 10px 20px;
+  border: 0;
+  margin-top:10px ;
+}
+/* end contacts */
+
+/* start footer */
+.footer {
+  text-align: center;
+  background-color: #191e22;
+  color: #6a6e71;
+}
+.footer ul li{list-style: none;display: inline;margin-left: 10px;}
+.footer ul li a{color:inherit;}
+/* end footer */
